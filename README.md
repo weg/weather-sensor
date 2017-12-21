@@ -1,5 +1,7 @@
-<h1>Manual de Configuração para ESP8266</h1>
+# <h1>Manual de Configuração para ESP8266</h1>
+
 <h3>Circuito eletrônico</h3>
+
 Para montagem do circuito você vai precisar de:
 <ul>
 <li>1 resistor 2200 ohms;</li>
@@ -46,7 +48,7 @@ Baixe a IDE de desenvolvimento Arduino do site oficial, no endereço:
 
 Efetue a instalação da IDE do Arduino seguindo os passos do instalador.
 
-Faça o dowload desse repositório, e extraia o conteúdo em um diretório de sua preferência.
+Faça o download desse repositório, e extraia o conteúdo em um diretório de sua preferência.
 
 Localize o arquivo `libraries.ZIP`, ele contém todas as bibliotecas necessárias. Extraia as pastas com as bibliotecas para o diretório: 
 > C:\Users\SEU_USUARIO\Documents\Arduino\libraries
@@ -60,7 +62,7 @@ Abra o arquivo `ESP-DHT_comMD5.ino` com a IDE do arduino e acesse o menu Arquivo
   <img src="/images/5.png" width="600"/
  </p>
 
-Feito isso, abra o menu Ferramentas, clique em Placas e selecione a opção Gerenciador de placas. Na página que abrir você pode filtrar por _“ESP8266”_ ou procurar na listagem por _“esp8266 by ESP8266 Community”_ e instalar o pacote.
+Feito isso, abra o menu Ferramentas, clique em Placas e selecione a opção Gerenciador de placas. Na página que abrir você pode filtrar por _“ESP8266”_ ou procure na listagem por _“esp8266 by ESP8266 Community”_ e instale o pacote.
  
  <p align="center">
   <img src="/images/6.png" width="600"/
@@ -75,7 +77,7 @@ Configure o módulo com os seguintes parâmetros:
 
 <h3>Fazer upload para o ESP8266</h3>
 
-No arquivo `ESP-DHT_comMD5.ino` altere as seguintes configurações:
+No arquivo `ESP-DHT_comMD5.ino` altere as seguintes variáveis:
  
  <p align="center">
   <img src="/images/8.png" width="600"/
